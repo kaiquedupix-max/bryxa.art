@@ -11,7 +11,7 @@ Primeira versão local de uma loja de streetwear com painel de administração e
 - Banners, textos, coleções, logo, cores, atendimento, políticas, benefícios, biblioteca de imagens, cupons e lista de e-mails administráveis.
 - Cálculo de frete via Melhor Envio por backend; token, origem e contato técnico configurados no painel. Sem cotações fictícias quando faltam credenciais.
 - Estrutura de pedidos no painel. Recebimento de pedidos e pagamentos ainda não habilitado, conforme combinado.
-- Checkout visual sem cadastro em `#checkout`. Pix/cartão, e-mails de confirmação e conta posterior para acompanhamento seguem o fluxo documentado em `CHECKOUT-E-ACOMPANHAMENTO.md`; a integração real ainda está pendente.
+- Checkout sem cadastro em `/checkout/`, Payment Brick integrado, aprovação verificada, acompanhamento e recuperação de senha. Credenciais externas e homologação real continuam pendentes. Veja `INTEGRACOES-E-SEGURANCA.md`.
 - Balão de atendimento com conversas privadas por token e respostas pelo painel, atualizado periodicamente sem exigir cadastro.
 
 ## Executar localmente
@@ -47,7 +47,7 @@ Na instalação nova, gere uma chave de instalação forte e única e cadastre o
 - Conferir preços, peso e medidas embaladas, estoque, direitos de uso das artes e dados comerciais.
 - Preencher atendimento e políticas reais da loja.
 - Configurar token, CEP de origem e e-mail técnico do Melhor Envio; validar em Sandbox e depois produção.
-- Implementar Mercado Pago, validação de valores no servidor, webhook idempotente, pedidos, reserva de estoque e upload privado das artes dos clientes.
+- Cadastrar credenciais do Mercado Pago e homologar Pix/cartão, webhook e estoque; conectar o upload final privado das artes dos clientes.
 - Configurar envio de e-mails; a lista atual salva os cadastros, mas não dispara campanhas.
 - Validar layout no navegador em desktop e celular. A abertura de navegador para revisão foi bloqueada pela política de permissões desta sessão; validação visual final ainda pendente.
 
@@ -59,6 +59,13 @@ Três banners originais gerados: Lightning, Skull 3D e Rust, em 1672 × 941. Ver
 
 Login com hash de senha, sessão HttpOnly/SameSite, proteção CSRF no painel, validação de arquivos e caminhos, token de frete privado, limitação de tentativas de login e cotação. As dimensões e valores de frete vêm do catálogo no servidor. O catálogo e as configurações são persistidos em SQLite com transações nas alterações de produtos.
 
-Os valores da sacola no navegador servem para prévia e deverão ser recalculados no backend do futuro checkout. O projeto não processa transações. Não foi realizado um teste real de cotação porque o token não foi fornecido.
+Os valores são recalculados no backend do checkout. O processamento real permanece desativado até cadastrar e ativar credenciais; os testes feitos não movimentaram dinheiro. Não foi realizado um teste real de cotação porque o token não foi fornecido.
 
 Documentação usada para a cotação: https://docs.melhorenvio.com.br/reference/calculo-de-fretes-por-produtos
+
+Extensões necessárias no PHP: PDO SQLite, SQLite3, Fileinfo, cURL e OpenSSL.
+
+## Pagamentos, acompanhamento e notificações
+
+Veja INTEGRACOES-E-SEGURANCA.md para configuração e limites da integração. Teste a reconciliação financeira com: php tests/payment-reconciliation.php (extensão PDO SQLite ativa).
+

@@ -1,0 +1,6 @@
+<?php
+if(!defined('BRYXA_API'))exit;
+const SECRET_FIELDS=['melhor_envio_token','mp_access_token','mp_webhook_secret'];
+function secretKey():string{global $storage;if(!function_exists('openssl_encrypt'))fail('Ative a extensão OpenSSL do PHP para salvar credenciais.',503);$file=$storage.'/credentials.key';if(!is_file($file)){$h=fopen($file,'x');if($h){fwrite($h,random_bytes(32));fclose($h);chmod($file,0600);}}$key=file_get_contents($file);if(strlen($key)!==32)throw new RuntimeException('Invalid encryption key');return $key;}
+function encryptSecret(string $value):string{if(!$value)return '';$iv=random_bytes(12);$tag='';$cipher=openssl_encrypt($value,'aes-256-gcm',secretKey(),OPENSSL_RAW_DATA,$iv,$tag,'BRYXA credentials');if($cipher===false)throw new RuntimeException('Encryption failed');return 'enc:v1:'.base64_encode($iv.$tag.$cipher);}
+function decryptSecret(string $value):string{if(!str_starts_with($value,'enc:v1:'))return $value;$raw=base64_decode(substr($value,7),true);if($raw===false||strlen($raw)<28)throw new RuntimeException('Invalid encrypted credential');$plain=openssl_decrypt(substr($raw,28),'aes-256-gcm',secretKey(),OPENSSL_RAW_DATA,substr($raw,0,12),substr($raw,12,16),'BRYXA credentials');if($plain===false)throw new RuntimeException('Credential decryption failed');return $plain;}

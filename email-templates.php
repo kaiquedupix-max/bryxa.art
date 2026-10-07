@@ -1,0 +1,18 @@
+<?php
+return [
+ 'order_created'=>['Pedido recebido · {{order_id}}','Recebemos sua seleção','Olá, {{name}}! Recebemos o pedido {{order_id}}. O total é {{total}}. Agora aguardamos a confirmação do pagamento.','Acompanhar pedido'],
+ 'payment_approved'=>['Pagamento aprovado · {{order_id}}','Tudo certo com seu pagamento','Olá, {{name}}! O pagamento do pedido {{order_id}} foi aprovado. Você pode acompanhar cada etapa pelo link abaixo e criar sua senha para acessar sua conta.','Acompanhar pedido'],
+ 'payment_pending'=>['Pagamento pendente · {{order_id}}','Seu pedido está reservado','Olá, {{name}}! O pagamento do pedido {{order_id}} ainda aguarda confirmação. Se escolheu Pix, conclua o pagamento antes do vencimento informado no checkout.','Ver pedido'],
+ 'payment_rejected'=>['Pagamento não aprovado · {{order_id}}','Vamos tentar novamente?','Olá, {{name}}. O pagamento do pedido {{order_id}} não foi aprovado. Confira os dados ou tente outra forma de pagamento. Nenhuma aprovação foi registrada pela loja.','Voltar à loja'],
+ 'production'=>['Seu pedido entrou em produção · {{order_id}}','Estamos preparando sua peça','Olá, {{name}}! Começamos a preparar o pedido {{order_id}}. Avisaremos quando ele estiver pronto para envio.','Acompanhar pedido'],
+ 'shipped'=>['Pedido enviado · {{order_id}}','Sua BRYXA está a caminho','Olá, {{name}}! O pedido {{order_id}} foi enviado. Transportadora: {{carrier}}. Código de rastreio: {{tracking}}. As próximas atualizações aparecerão no acompanhamento.','Acompanhar entrega'],
+ 'in_transit'=>['Atualização da entrega · {{order_id}}','Uma nova etapa da entrega','Olá, {{name}}! Há uma nova atualização de transporte do pedido {{order_id}}: {{update}}.','Acompanhar entrega'],
+ 'delivered'=>['Pedido entregue · {{order_id}}','Sua BRYXA chegou','Olá, {{name}}! A entrega do pedido {{order_id}} foi confirmada. Esperamos que você aproveite sua peça. Se precisar de ajuda, fale com a nossa equipe.','Ver pedido'],
+ 'cancelled'=>['Pedido cancelado · {{order_id}}','Atualização do seu pedido','Olá, {{name}}. O pedido {{order_id}} foi cancelado. Se houve pagamento, o cancelamento do pedido não confirma automaticamente o estorno. Nossa equipe informará o andamento.','Falar com a loja'],
+ 'refunded'=>['Estorno confirmado · {{order_id}}','Seu estorno foi confirmado','Olá, {{name}}. O Mercado Pago confirmou o estorno do pedido {{order_id}}. O prazo de disponibilização depende da forma de pagamento e da instituição financeira.','Ver pedido'],
+ 'account_created'=>['Sua conta BRYXA está pronta','Bem-vinda à sua conta','Olá, {{name}}! Sua senha foi criada. Você já pode acompanhar os pedidos associados ao seu e-mail. Se não foi você, entre em contato com a loja.','Acessar acompanhamento'],
+ 'password_reset'=>['Redefina sua senha BRYXA','Vamos recuperar seu acesso','Recebemos uma solicitação de redefinição de senha para sua conta. O link é válido por 30 minutos e pode ser usado uma única vez. Se não foi você, ignore este e-mail.','Criar nova senha'],
+ 'password_changed'=>['Sua senha BRYXA foi alterada','Seu acesso foi atualizado','A senha da sua conta foi alterada. Se você não reconhece essa alteração, entre em contato com a loja imediatamente.','Falar com a loja'],
+ 'art_approval'=>['Revise sua arte · {{order_id}}','Sua arte está pronta para revisão','Olá, {{name}}! A proposta de arte do pedido {{order_id}} está pronta. Entre em contato com a equipe para revisar os detalhes antes da produção.','Falar com a loja'],
+ 'support_reply'=>['Resposta da equipe BRYXA','Temos uma resposta para você','Olá, {{name}}! Nossa equipe respondeu ao seu atendimento: {{update}}. Retome a conversa na loja para continuar.','Abrir atendimento']
+];

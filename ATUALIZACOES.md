@@ -6,7 +6,7 @@
 - Atendimento pede e-mail e WhatsApp, permite perfil com foto/nome, leitura e digitação reais via consulta periódica. Administração pode criar acessos limitados para atendentes.
 - A prévia local tem frete simulado e aprovação automática de compra. Escolha Pix ou cartão simulado; nenhum dado de cartão é solicitado. Após aprovação aparece a prévia do e-mail e o acompanhamento permite criar senha. Pedidos de teste aparecem identificados no painel. Nenhum e-mail é enviado e nenhum valor é cobrado.
 - Para ativar testes em outra máquina, configure demo_mode como true em config.local.php e execute o servidor PHP com router.php. A simulação só funciona no servidor local de desenvolvimento do PHP; fica bloqueada em produção.
-- Mercado Pago real, envio real de e-mails e hospedagem Hostinger continuam para a etapa de integração/publicação.
+- Mercado Pago integrado no código, com campos protegidos no painel; ativação e homologação real dependem de credenciais. Envio real de e-mails e hospedagem Hostinger continuam para a etapa de configuração/publicação.
 
 ## Validação
 
