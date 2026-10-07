@@ -1,0 +1,5 @@
+<?php
+$config=is_file(dirname(__DIR__).'/config.local.php')?require dirname(__DIR__).'/config.local.php':[];$seed=require dirname(__DIR__).'/seed.php';$s=$seed['settings'];try{$db=new PDO('sqlite:'.($config['storage_path']??dirname(__DIR__).'/storage').'/bryxa.sqlite');$raw=$db->query("SELECT data FROM documents WHERE name='settings'")->fetchColumn();if($raw)$s=json_decode($raw,true);}catch(Throwable $e){}
+$base='https://'.preg_replace('/[^a-zA-Z0-9.-]/','',$s['domain']);
+if(isset($_GET['robots'])){header('Content-Type: text/plain');echo "User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /admin.html\nDisallow: /checkout/\nDisallow: /sacola/\nDisallow: /acompanhar/\nSitemap: $base/sitemap.xml\n";exit;}
+header('Content-Type: application/xml; charset=utf-8');echo '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';foreach($s['pages'] as $slug=>$page)if($page['enabled'])echo '<url><loc>'.htmlspecialchars($base.($slug==='inicio'?'/':'/'.$slug.'/'),ENT_XML1).'</loc></url>';foreach(['contato','sobre','trocas','privacidade','termos'] as $slug)echo '<url><loc>'.$base.'/'.$slug.'/</loc></url>';echo '</urlset>';

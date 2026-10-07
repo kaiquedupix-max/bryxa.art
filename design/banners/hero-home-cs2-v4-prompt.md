@@ -1,0 +1,3 @@
+Generated with the built-in image_gen tool. Original resolution: 1672 × 941.
+
+Prompt: Exclusive BRYXA homepage hero, panoramic 16:9 cinematic streetwear editorial, entirely Counter-Strike 2. One adult female model from behind on the right, premium black oversized hoodie with legible purple-magenta BRYXA brush graffiti wordmark and original graphic. Nuke-inspired industrial courtyard, blue steel warehouses, concrete, yellow railings, containers and cooling towers at dusk. Photographic realism, detailed cotton and seams, restrained violet-magenta rim light, dark negative space on left for HTML copy. Minimal clutter, no weapons, game UI, extra logos, watermark or other text. Clearly different from the Mediterranean collection banner.
