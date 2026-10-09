@@ -8,3 +8,5 @@
 .admin-body input[type=file]:disabled{opacity:.55;cursor:not-allowed}
 @media(prefers-reduced-motion:reduce){.admin-body input[type=file],.admin-body input[type=file]::file-selector-button{transition:none}}
 
+
+.category-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid #ffffff15}.category-child{padding-left:28px}.category-selected{color:#c78bee!important;font-weight:700}.category-dialog{max-width:560px}.copy-group{border-top:1px solid #ffffff20;padding:18px 0}.copy-group summary{cursor:pointer;font-weight:700;margin-bottom:15px}.copy-field{margin:20px 0}.copy-field[hidden],[hidden]{display:none!important}

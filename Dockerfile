@@ -3,7 +3,9 @@ FROM php:8.3-apache-bookworm
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libsqlite3-dev libcurl4-openssl-dev \
-    && docker-php-ext-install pdo_sqlite sqlite3 curl \
+    && for extension in pdo_sqlite sqlite3 curl; do \
+        if ! php -r 'exit(extension_loaded($argv[1]) ? 0 : 1);' "$extension"; then docker-php-ext-install "$extension"; fi; \
+       done \
     && a2enmod rewrite headers setenvif \
     && rm -rf /var/lib/apt/lists/*
 
@@ -56,6 +58,7 @@ START
 chmod 755 /usr/local/bin/bryxa-start
 find /var/www/html -name '*.php' -print0 | xargs -0 -n1 php -l
 php -r 'foreach (["pdo_sqlite","sqlite3","curl","fileinfo","openssl"] as $extension) { if (!extension_loaded($extension)) { fwrite(STDERR, "Missing extension: ".$extension.PHP_EOL); exit(1); } }'
+php /var/www/html/tests/catalog-settings.php
 apache2ctl configtest
 SHELL
 

@@ -1,0 +1,654 @@
+{
+  "bf86b8c3287ea4e3bf8eac78": {
+    "text": "Adicionar ao carrinho",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "73341ee1d06161d4d1970cfc": {
+    "text": "Quero receber",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b9a56d153e07cd6efa908afc": {
+    "text": "Aceito receber novidades e li a",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "3b73900b8d29f963dece78ed": {
+    "text": "Explore",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "fe0addd707813a3557df44bf": {
+    "text": "Ajuda",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "28594e2a878cd7674d9ed1ee": {
+    "text": "Contato",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "5498de324b1e932dd095ca31": {
+    "text": "Trocas e devoluções",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "2bb2d8436a5c0668382451b2": {
+    "text": "Privacidade",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "265a926d6bfaad724f710dc9": {
+    "text": "Termos de compra",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "f031524ec3cda6f3d87cc55c": {
+    "text": "Conecte-se",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "4a2106db1959f360018fbb6b": {
+    "text": "Arte. Atitude. Liberdade.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "1f866532eae9bf1462b2405d": {
+    "text": "Seleção BRYXA",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "bdf7be27b27dc3dac123e318": {
+    "text": "Novos drops em breve.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "fc447971543902b7f261a33a": {
+    "text": "BRYXA",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "777a401b05f082324a9ea9c5": {
+    "text": "Destaques",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "e00c4aa99fcc36a27907458d": {
+    "text": "Menor preço",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "15028e9655feab7fcab1136f": {
+    "text": "Maior preço",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b4863f4241abdf2e29257f13": {
+    "text": "Explorar peças",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "8fac1e489171f5660c048e14": {
+    "text": "Novas peças para personalização em breve.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "d0cc91159dc50b2b0b57b70f": {
+    "text": "Prévia da sua ideia",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "dd95a1f1aed77ad0ea77a66e": {
+    "text": "Uma peça só sua",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "510f6fcf5614f3274936484e": {
+    "text": "Crie sua peça.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "a07342db928cb0cea5ec4645": {
+    "text": "Prévia ilustrativa. A arte final será aprovada com você antes da produção.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "ac7f87af805d135d3132427b": {
+    "text": "1. Escolha a peça",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "8c0fb918d8f5ab224e7ae9c3": {
+    "text": "2. Tamanho",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "d1f00e6921677b6cafeabd42": {
+    "text": "3. Posição da arte",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "ba711a7a53056618100e621f": {
+    "text": "Frente",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "357ac3567b470c10114b0d1d": {
+    "text": "Costas",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "4f82918b2e81cc63c0851609": {
+    "text": "Manga esquerda",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "a8b04474eea04620319656b0": {
+    "text": "Manga direita",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "1860ae2d51deb26e844703eb": {
+    "text": "4. Nome ou frase (opcional)",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "dbc27998fcdc51d216af3974": {
+    "text": "5. Sua arte (opcional)",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "cc0279e619f27612cb8d92c5": {
+    "text": "Solte sua arte aqui",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "16eb8defb0162ad66d3d0c58": {
+    "text": "ou clique para escolher uma imagem",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "a77ae0b9f9583279f092d660": {
+    "text": "PNG, JPG ou WebP · até 10 MB",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "7e2be37bea5456316e395e2a": {
+    "text": "PNG, JPG ou WebP, até 10 MB. A prévia fica apenas neste navegador nesta etapa.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "c01ddbeaab7c20d8972f9062": {
+    "text": "Observações",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "c84a5947dda4bc88f1b6d8d4": {
+    "text": "O envio da arte e a confirmação de produção serão conectados na etapa do checkout.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "7d2f8cfcde1efb8fcd5c1078": {
+    "text": "Seu estilo, sua seleção",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "0ab6bd6f8072a6b63cc5e99c": {
+    "text": "Sacola",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "d30fb3890fb79e8932ae1773": {
+    "text": "Sua sacola está esperando.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "8df91cf580d0354c74cf0033": {
+    "text": "Encontre uma peça que tem a sua essência.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "a3037dc71a43fa40bb1e03b5": {
+    "text": "Remover",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "18c4a06869e95b069419b77e": {
+    "text": "Calcule o frete",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "8a61a4052f6f4dc395fb99fd": {
+    "text": "Calcular",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "624d12696500baa57d08453b": {
+    "text": "Resumo da sua sacola",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "7ae3915dfb99925d15227cd7": {
+    "text": "Frete",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "c9b3c38247f744e17dd26fda": {
+    "text": "Total",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "3a04898a6b8b6e0f1e906303": {
+    "text": "Aplicar",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "dadaa6f9b3ee69a51cf379f7": {
+    "text": "Continuar compra",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "5570da0b8b148747289cc3eb": {
+    "text": "Compra sem cadastro. Teste o fluxo sem cobranças na prévia local.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "27cf66169b75c37ba55828ca": {
+    "text": "Continuar explorando",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b7cacf0a8cbe4792f5ac4e95": {
+    "text": "Conversar no WhatsApp",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "ecb31dfb55a43d19f158a75d": {
+    "text": "Nossa essência",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "dcdf4fb1bb8a27d5d036d415": {
+    "text": "Arte que acompanha você.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "88fb313344dbb55feac1965c": {
+    "text": "Escolha seu tamanho",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "497d5f53992e521b259927ab": {
+    "text": "r.right||e.clientY",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "63da62e829653ca767e245a7": {
+    "text": "A loja está voltando.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b9e10688be012d8bc2adc6ec": {
+    "text": "Tentar novamente",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "895f0739f1b48b53e828b9fa": {
+    "text": "Navegação principal",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "ad2c8ba9ac94925f642db108": {
+    "text": "Favoritos",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "7db0b2e89b4c1bfc0753174a": {
+    "text": "Abrir menu",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "c7d9dce35d88480e7c538479": {
+    "text": "Seu e-mail",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "54276aa0307f83cb079c75cf": {
+    "text": "Categoria",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "046a526680e9842deb603787": {
+    "text": "Filtrar tamanho",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "2ccd04aaaa5c387530f18837": {
+    "text": "Ordenar produtos",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "185df61b2c521ca7eb50933c": {
+    "text": "Sua ideia, em poucas palavras",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "1d565f75042f32b121c576a2": {
+    "text": "Escolher sua arte",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b5d80e5ded2ad9f53d56f396": {
+    "text": "Conte o que você imaginou.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "2ceb15b1588ac70e87231d45": {
+    "text": "Diminuir quantidade",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "af882198ae0fe14ad16c7fc8": {
+    "text": "Aumentar quantidade",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "1a2802427ce2772bb48b0f25": {
+    "text": "CEP de entrega",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "f3959e50f0d35ceecb3bef13": {
+    "text": "Cupom",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "2c36532f703da86397ebdef3": {
+    "text": "Código do cupom",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "0f2bd88ef0acbda94f434542": {
+    "text": "Fechar",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "dc6781a4f22365a760895e39": {
+    "text": "Este tamanho está esgotado.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "41d2c99c333c723b7edc4093": {
+    "text": "Você já adicionou o estoque disponível deste tamanho.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "2fe4c9eaf46aab78dfa4ffc2": {
+    "text": "Peça adicionada à sacola.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "20cea8310ca29bcb16cb4f43": {
+    "text": "Pronto! Você está na lista de novidades.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b40c5c0029426214d8f71ff8": {
+    "text": "Quantidade máxima disponível.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "75c4bfe48d33e19e7799fdc1": {
+    "text": "Consultando…",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "a2e837325666dea956cd1d92": {
+    "text": "Cotação em ambiente de testes. Valores ilustrativos.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "c8ed3dbae94deaec9262cb57": {
+    "text": "Cupom aplicado.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b1c9aa5bb9f30f48f281c2cd": {
+    "text": "Use PNG, JPG ou WebP, até 10 MB.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "e4d53a93648e6cf39cbc08e0": {
+    "text": "Sua sacola está vazia.",
+    "group": "Checkout e pagamento"
+  },
+  "b12f7dcb4afa2ce093c50e99": {
+    "text": "Sem cadastro. Do seu jeito.",
+    "group": "Checkout e pagamento"
+  },
+  "136529405f9d45aa887da9f0": {
+    "text": "Finalize sua seleção.",
+    "group": "Checkout e pagamento"
+  },
+  "983b6bd9bf1f0d24c5f542e3": {
+    "text": "1. Contato",
+    "group": "Checkout e pagamento"
+  },
+  "294d795308e73d5bd71e63a4": {
+    "text": "Seu e-mail será usado para confirmar a compra e acompanhar o pedido.",
+    "group": "Checkout e pagamento"
+  },
+  "52015b04c01add60c5237067": {
+    "text": "Nome completo",
+    "group": "Checkout e pagamento"
+  },
+  "2550d962e536e7c0889f563a": {
+    "text": "E-mail",
+    "group": "Checkout e pagamento"
+  },
+  "f8316b2d4f059a5049a8c9dc": {
+    "text": "2. Entrega",
+    "group": "Checkout e pagamento"
+  },
+  "d686368b507171acf5b8e20f": {
+    "text": "CEP",
+    "group": "Checkout e pagamento"
+  },
+  "9ed263dc956ab9a079e1e9d4": {
+    "text": "Rua ou avenida",
+    "group": "Checkout e pagamento"
+  },
+  "67e494d69c2d20d04d9a9003": {
+    "text": "Número",
+    "group": "Checkout e pagamento"
+  },
+  "03c2f10570eb933e31fb10cf": {
+    "text": "Complemento (opcional)",
+    "group": "Checkout e pagamento"
+  },
+  "2dbd2bbcce58e9af2b0d5fbe": {
+    "text": "Bairro",
+    "group": "Checkout e pagamento"
+  },
+  "de1c17687a54a0ddd16bfd09": {
+    "text": "Cidade",
+    "group": "Checkout e pagamento"
+  },
+  "98e5acddb6c46a248f96e8a5": {
+    "text": "Estado",
+    "group": "Checkout e pagamento"
+  },
+  "987d5be9f4bf7651402fe543": {
+    "text": "Selecione",
+    "group": "Checkout e pagamento"
+  },
+  "fd41c0984fd94c0afd630f25": {
+    "text": "Continuar para pagamento",
+    "group": "Checkout e pagamento"
+  },
+  "e02fa011bd69588a624337f2": {
+    "text": "3. Pagamento",
+    "group": "Checkout e pagamento"
+  },
+  "fa7d3d951464d6e37d8d7f3b": {
+    "text": "Pix",
+    "group": "Checkout e pagamento"
+  },
+  "4bef4f3140f161252d46438a": {
+    "text": "Cartão",
+    "group": "Checkout e pagamento"
+  },
+  "d03d3298738d61d3edd79545": {
+    "text": "O pagamento estará disponível quando a loja for inaugurada.",
+    "group": "Checkout e pagamento"
+  },
+  "af851333160a2af05f564b88": {
+    "text": "Você não precisa criar uma conta para comprar.",
+    "group": "Checkout e pagamento"
+  },
+  "6e91b9dab48fc6189a92bfc8": {
+    "text": "Sua seleção",
+    "group": "Checkout e pagamento"
+  },
+  "8c0f2cb34079ede463416616": {
+    "text": "Subtotal",
+    "group": "Checkout e pagamento"
+  },
+  "26182265327896ae69c3d985": {
+    "text": "A calcular",
+    "group": "Checkout e pagamento"
+  },
+  "2cd58c7a6494cf0036db978d": {
+    "text": "Após a confirmação, você receberá um e-mail com os detalhes. A criação de senha para acompanhar o pedido será opcional.",
+    "group": "Checkout e pagamento"
+  },
+  "35292b43c11805deff8a6398": {
+    "text": "Voltar à sacola",
+    "group": "Checkout e pagamento"
+  },
+  "54bc9127cf8b3a64928db589": {
+    "text": "Ambiente de teste. Nenhum valor será cobrado.",
+    "group": "Checkout e pagamento"
+  },
+  "6a82b6ddad521343843bbd79": {
+    "text": "Entrega simulada",
+    "group": "Checkout e pagamento"
+  },
+  "138e2620320847e1d88d8db1": {
+    "text": "Confirmar compra de teste",
+    "group": "Checkout e pagamento"
+  },
+  "30d231d2d1884af6a060cd10": {
+    "text": "O pagamento estará disponível na inauguração.",
+    "group": "Checkout e pagamento"
+  },
+  "fff4f836b116f63c6e490711": {
+    "text": "Compra de teste aprovada",
+    "group": "Checkout e pagamento"
+  },
+  "57911f1b74890652e6a84b7b": {
+    "text": "Nenhum valor foi cobrado.",
+    "group": "Checkout e pagamento"
+  },
+  "e988326a20d5b6e66232ad6d": {
+    "text": "Prévia do e-mail de confirmação",
+    "group": "Checkout e pagamento"
+  },
+  "04d66755ff9f3efda608aeaf": {
+    "text": "Nesta simulação, o e-mail aparece aqui e não é enviado.",
+    "group": "Checkout e pagamento"
+  },
+  "21ca8aea59171eed0d8a2faa": {
+    "text": "Acompanhar meu pedido",
+    "group": "Checkout e pagamento"
+  },
+  "a3125e6d04d0bdb2212372e8": {
+    "text": "Pedido simulado. Atualize a página para consultar alterações da administração.",
+    "group": "Checkout e pagamento"
+  },
+  "f185246f0a2f888b6c290a34": {
+    "text": "Após sua compra",
+    "group": "Checkout e pagamento"
+  },
+  "606eefad94bb792d96b5d07c": {
+    "text": "Acompanhe seu pedido.",
+    "group": "Checkout e pagamento"
+  },
+  "bd12caed600d86a65064e6dd": {
+    "text": "Crie sua senha",
+    "group": "Checkout e pagamento"
+  },
+  "e0fa8c91e275d224358219dd": {
+    "text": "Acompanhar pedido",
+    "group": "Checkout e pagamento"
+  },
+  "d2eb18ce9284510ae5a37038": {
+    "text": "Faça uma compra de teste neste navegador para acompanhar seu pedido.",
+    "group": "Checkout e pagamento"
+  },
+  "fd42318ae964b2f1a79fc92c": {
+    "text": "O pagamento ainda não foi ativado pela loja.",
+    "group": "Acompanhamento e acesso"
+  },
+  "24d49b8597db7d37e7a29117": {
+    "text": "Entrega",
+    "group": "Acompanhamento e acesso"
+  },
+  "93bb9ad4504ebfa50073d70e": {
+    "text": "Código Pix copia e cola",
+    "group": "Acompanhamento e acesso"
+  },
+  "755c8b2a9fb114460e0909ab": {
+    "text": "Status:",
+    "group": "Acompanhamento e acesso"
+  },
+  "8754d1b5c73efba605e6af2e": {
+    "text": "Pedido de teste, sem cobrança ou envio real.",
+    "group": "Acompanhamento e acesso"
+  },
+  "6915d8cf742ce55f1cf96f9e": {
+    "text": "Acompanhe seu pedido",
+    "group": "Acompanhamento e acesso"
+  },
+  "907798a4bfe9accd1769f20b": {
+    "text": "Abra o link de acompanhamento recebido por e-mail.",
+    "group": "Acompanhamento e acesso"
+  },
+  "085f53efc9b719e8f3e41456": {
+    "text": "Seu pedido, passo a passo.",
+    "group": "Acompanhamento e acesso"
+  },
+  "d0403526e4afeb8f901c3ca3": {
+    "text": "Sua senha",
+    "group": "Acompanhamento e acesso"
+  },
+  "16696f2ed9289f9bb0c49c0b": {
+    "text": "Esqueci minha senha",
+    "group": "Acompanhamento e acesso"
+  },
+  "cc7e5cb37a6d4d2c0c754038": {
+    "text": "Aguardando aprovação do pagamento. Atualize esta página após concluir o pagamento.",
+    "group": "Acompanhamento e acesso"
+  },
+  "633b0b529c0d1394447a04b6": {
+    "text": "Recupere seu acesso.",
+    "group": "Acompanhamento e acesso"
+  },
+  "ebc707b046979a18bc442930": {
+    "text": "Nova senha",
+    "group": "Acompanhamento e acesso"
+  },
+  "873b678ffcc5e9fa2751953e": {
+    "text": "Salvar nova senha",
+    "group": "Acompanhamento e acesso"
+  },
+  "330ca332bb041be070f9cf97": {
+    "text": "Senha alterada. Volte ao link de acompanhamento ou ao painel para entrar.",
+    "group": "Acompanhamento e acesso"
+  },
+  "fdefcea84b9033b7fdeef37e": {
+    "text": "Esqueceu sua senha?",
+    "group": "Acompanhamento e acesso"
+  },
+  "0fe6b73646cee2a6709ee1c8": {
+    "text": "E-mail da conta",
+    "group": "Acompanhamento e acesso"
+  },
+  "d81d1fbf9bfa3ff29232bb36": {
+    "text": "Solicitar link de recuperação",
+    "group": "Acompanhamento e acesso"
+  },
+  "c38407edce79d3797928d9ed": {
+    "text": "Confira os dados do pagamento ou tente novamente.",
+    "group": "Acompanhamento e acesso"
+  },
+  "fe917e7bf2f5b9f5e2f5361c": {
+    "text": "Atendimento BRYXA",
+    "group": "Atendimento"
+  },
+  "3d38481b4af39e446b30740d": {
+    "text": "Como podemos ajudar?",
+    "group": "Atendimento"
+  },
+  "423f69a38f8e1df26c88d6cb": {
+    "text": "Vamos conversar?",
+    "group": "Atendimento"
+  },
+  "110ac5769f17d642163d94ff": {
+    "text": "Deixe seus contatos para retornarmos caso você feche o chat.",
+    "group": "Atendimento"
+  },
+  "81dc4fd588ffcda8fed80cf4": {
+    "text": "Seu nome (opcional)",
+    "group": "Atendimento"
+  },
+  "3cc8791d633bdbe7cf7813e7": {
+    "text": "WhatsApp com DDD",
+    "group": "Atendimento"
+  },
+  "1af30d5433fecdc2f9fa5ce8": {
+    "text": "Iniciar conversa",
+    "group": "Atendimento"
+  },
+  "d4f025980d1544a29f091711": {
+    "text": "Usaremos estes dados para atender sua solicitação.",
+    "group": "Atendimento"
+  },
+  "3b558be2f3f9805222caf92a": {
+    "text": "Sua dúvida",
+    "group": "Atendimento"
+  },
+  "e1d12d1a29a77b00142fe03e": {
+    "text": "Enviar",
+    "group": "Atendimento"
+  },
+  "51912ae92e96a884c6283c7c": {
+    "text": "Não envie senhas ou dados de cartão.",
+    "group": "Atendimento"
+  },
+  "68d02fe207345bf9bdd37b9f": {
+    "text": "Precisa de ajuda?",
+    "group": "Atendimento"
+  },
+  "e9b9f25c4db1f37727a82a95": {
+    "text": "Oi! Conte sua dúvida. Nossa equipe responderá assim que estiver disponível.",
+    "group": "Atendimento"
+  },
+  "8653a489e84625f3e3d5071f": {
+    "text": "Digitando…",
+    "group": "Atendimento"
+  },
+  "c0653df1dd7c0f19b8c2d8a2": {
+    "text": "Fechar atendimento",
+    "group": "Atendimento"
+  },
+  "6dad3be7b0e0102724ad1e36": {
+    "text": "Digite uma mensagem…",
+    "group": "Atendimento"
+  },
+  "b89c0bcade8b83a72df2fadd": {
+    "text": "Abrir atendimento",
+    "group": "Atendimento"
+  },
+  "d71cb93ce2771fd508d98648": {
+    "text": "Confira o WhatsApp com DDD.",
+    "group": "Atendimento"
+  }
+}

@@ -195,3 +195,5 @@ input[aria-invalid=true]:focus,select[aria-invalid=true]:focus,textarea[aria-inv
 .social-contact{display:flex;align-items:center;gap:10px}.social-contact img{filter:invert(1);opacity:.8}.social-contact[aria-disabled=true]{opacity:.45;cursor:default}.checkout-details[hidden]{display:none!important}
 
 .order-timeline{list-style:none;padding:0;border-left:2px solid var(--purple);margin:28px 8px}.order-timeline li{padding:0 0 24px 24px;position:relative}.order-timeline li:before{content:"";position:absolute;width:10px;height:10px;background:var(--purple);border-radius:50%;left:-6px;top:5px}.order-timeline small{display:block;color:var(--muted);margin-top:6px}.payment-choices[hidden]{display:none!important}
+
+[hidden]{display:none!important}
