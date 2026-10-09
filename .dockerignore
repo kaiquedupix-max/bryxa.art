@@ -1,0 +1,7 @@
+.git
+config.local.php
+ACESSO-LOCAL.txt
+storage/*
+public/uploads/*
+!public/uploads/.htaccess
+*.zip
