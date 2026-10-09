@@ -43,5 +43,5 @@ export function applyStoreCopy(){
             if(current!==value)el.setAttribute(attr,value);
         }
     }
-    for(const el of document.querySelectorAll('.support-widget'))el.hidden=sections.support===false;
+    for(const el of document.querySelectorAll('.support-widget'))el.hidden=true;
 }

@@ -59,6 +59,7 @@ chmod 755 /usr/local/bin/bryxa-start
 find /var/www/html -name '*.php' -print0 | xargs -0 -n1 php -l
 php -r 'foreach (["pdo_sqlite","sqlite3","curl","fileinfo","openssl"] as $extension) { if (!extension_loaded($extension)) { fwrite(STDERR, "Missing extension: ".$extension.PHP_EOL); exit(1); } }'
 php /var/www/html/tests/catalog-settings.php
+php /var/www/html/tests/shop-options.php
 apache2ctl configtest
 SHELL
 

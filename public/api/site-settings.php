@@ -19,7 +19,7 @@ function validateStorePages(array $input, array $products = []): array {
         $parent = $page['parent'] ?? '';
         if (!is_string($parent) || ($parent && !isset($input[$parent]))) throw new InvalidArgumentException('Categoria principal inválida.');
         if ($parent === $slug) throw new InvalidArgumentException('Uma categoria não pode ser sua própria categoria principal.');
-        if ($parent && (!empty($input[$parent]['parent']) || in_array($parent, ['inicio','personalizado'], true))) throw new InvalidArgumentException('Escolha uma categoria do menu principal. Subcategorias têm apenas um nível.');
+        if ($parent && (!empty($input[$parent]['parent']) || in_array($parent, ['inicio'], true))) throw new InvalidArgumentException('Escolha uma categoria do menu principal. Subcategorias têm apenas um nível.');
         if (in_array($slug, ['inicio','personalizado'], true) && $parent) throw new InvalidArgumentException('Esta página deve ficar no menu principal.');
         $order = filter_var($page['order'] ?? 0, FILTER_VALIDATE_INT);
         if ($order === false || $order < 0 || $order > 999) throw new InvalidArgumentException('Use uma ordem entre 0 e 999.');

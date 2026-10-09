@@ -1,4 +1,8 @@
 {
+  "61cc7d07af52428250da7086": {
+    "text": "Carrinho",
+    "group": "Vitrine, sacola e personalização"
+  },
   "bf86b8c3287ea4e3bf8eac78": {
     "text": "Adicionar ao carrinho",
     "group": "Vitrine, sacola e personalização"
@@ -73,6 +77,10 @@
   },
   "8fac1e489171f5660c048e14": {
     "text": "Novas peças para personalização em breve.",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "ba7c0d9d187199b77efb7dce": {
+    "text": "Como funciona a personalização",
     "group": "Vitrine, sacola e personalização"
   },
   "d0cc91159dc50b2b0b57b70f": {
@@ -195,12 +203,16 @@
     "text": "Aplicar",
     "group": "Vitrine, sacola e personalização"
   },
+  "9fa31fca6735b7832ca668bb": {
+    "text": "Remover cupom",
+    "group": "Vitrine, sacola e personalização"
+  },
   "dadaa6f9b3ee69a51cf379f7": {
     "text": "Continuar compra",
     "group": "Vitrine, sacola e personalização"
   },
-  "5570da0b8b148747289cc3eb": {
-    "text": "Compra sem cadastro. Teste o fluxo sem cobranças na prévia local.",
+  "4de8d85e7bde8313d6b25274": {
+    "text": "Compra sem cadastro. Confira seus dados antes de continuar.",
     "group": "Vitrine, sacola e personalização"
   },
   "27cf66169b75c37ba55828ca": {
@@ -235,8 +247,20 @@
     "text": "Tentar novamente",
     "group": "Vitrine, sacola e personalização"
   },
+  "010b159c1fe69e35efd15691": {
+    "text": "Complete sua seleção",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "6a40edf1fc87a29f243a7eef": {
+    "text": "WhatsApp",
+    "group": "Vitrine, sacola e personalização"
+  },
   "895f0739f1b48b53e828b9fa": {
     "text": "Navegação principal",
+    "group": "Vitrine, sacola e personalização"
+  },
+  "b86fdcaacc21d34675743da7": {
+    "text": "Ativar tema claro",
     "group": "Vitrine, sacola e personalização"
   },
   "ad2c8ba9ac94925f642db108": {
@@ -429,6 +453,10 @@
   },
   "8c0f2cb34079ede463416616": {
     "text": "Subtotal",
+    "group": "Checkout e pagamento"
+  },
+  "c4dad3df6766b545179e9739": {
+    "text": "Desconto",
     "group": "Checkout e pagamento"
   },
   "26182265327896ae69c3d985": {
