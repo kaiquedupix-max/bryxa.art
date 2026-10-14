@@ -21,7 +21,7 @@ function proCheckoutUrl(array $preference, bool $sandbox): string {
     return $url;
 }
 if ($action==='mp-pro' && $method==='POST') {
-    requestLimit('mp-pro',15);
+    requestLimit('mp-pro',15,60);
     if (!mpEnabled() || demoMode()) fail('Pagamento indisponível.',503);
     $b=body();
     $q=$db->prepare('SELECT * FROM checkout_drafts WHERE id=? AND session_id=? AND expires>?');
