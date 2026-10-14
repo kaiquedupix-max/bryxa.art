@@ -63,6 +63,7 @@ php -r 'foreach (["pdo_sqlite","sqlite3","curl","fileinfo","openssl"] as $extens
 php /var/www/html/tests/catalog-settings.php
 php /var/www/html/tests/shop-options.php
 php /var/www/html/tests/email-delivery.php
+php /var/www/html/tests/checkout-pro.php
 apache2ctl configtest
 SHELL
 
