@@ -43,6 +43,7 @@ cat > /var/www/html/config.local.php <<'PHP'
 <?php
 return [
     'demo_mode' => false,
+    'domain' => 'bryxa.com.br',
     'setup_key' => getenv('BRYXA_SETUP_KEY') ?: '',
     'storage_path' => __DIR__ . '/storage',
 ];
@@ -53,6 +54,7 @@ set -eu
 mkdir -p /var/www/html/storage /var/www/html/public/uploads
 chown www-data:www-data /var/www/html/storage /var/www/html/public/uploads
 chmod 750 /var/www/html/storage /var/www/html/public/uploads
+runuser -u www-data -- php /var/www/html/send-emails.php --loop &
 exec apache2-foreground
 START
 chmod 755 /usr/local/bin/bryxa-start
@@ -60,6 +62,7 @@ find /var/www/html -name '*.php' -print0 | xargs -0 -n1 php -l
 php -r 'foreach (["pdo_sqlite","sqlite3","curl","fileinfo","openssl"] as $extension) { if (!extension_loaded($extension)) { fwrite(STDERR, "Missing extension: ".$extension.PHP_EOL); exit(1); } }'
 php /var/www/html/tests/catalog-settings.php
 php /var/www/html/tests/shop-options.php
+php /var/www/html/tests/email-delivery.php
 apache2ctl configtest
 SHELL
 

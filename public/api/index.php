@@ -25,6 +25,7 @@ try{
  function loadDoc(string $name):array{global $db;$q=$db->prepare('SELECT data FROM documents WHERE name=?');$q->execute([$name]);$data=json_decode($q->fetchColumn()?:'[]',true);if($name==='integrations')foreach(SECRET_FIELDS as $f)if(!empty($data[$f]))$data[$f]=decryptSecret($data[$f]);return $data;}
  function saveDoc(string $name,array $data):void{global $db;if($name==='integrations')foreach(SECRET_FIELDS as $f)if(!empty($data[$f]))$data[$f]=encryptSecret($data[$f]);$q=$db->prepare('INSERT INTO documents(name,data) VALUES(?,?) ON CONFLICT(name) DO UPDATE SET data=excluded.data');$q->execute([$name,json_encode($data,JSON_UNESCAPED_UNICODE)]);}
  if(!loadDoc('settings')){foreach(require dirname(__DIR__,2).'/seed.php' as $k=>$v)saveDoc($k,$v);}
+ $siteDomain=$config['domain']??'';if($siteDomain==='bryxa.com.br'){$s=loadDoc('settings');if(empty($s['domain_hostinger_v1'])){$s['domain']='bryxa.com.br';$s['contact_email']='contato@bryxa.com.br';$s['domain_hostinger_v1']=true;saveDoc('settings',$s);}}
  $legacyRaw=$db->query("SELECT data FROM documents WHERE name='integrations'")->fetchColumn();$legacy=json_decode($legacyRaw?:'[]',true);foreach(SECRET_FIELDS as $field)if(!empty($legacy[$field])&&!str_starts_with($legacy[$field],'enc:v1:')){saveDoc('integrations',loadDoc('integrations'));break;}
  $db->exec('CREATE TABLE IF NOT EXISTS chats (id TEXT PRIMARY KEY,token_hash TEXT NOT NULL,messages TEXT NOT NULL,updated TEXT NOT NULL);');
  $action=$_GET['action']??'store';$method=$_SERVER['REQUEST_METHOD'];
