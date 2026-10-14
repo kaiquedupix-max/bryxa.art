@@ -246,3 +246,6 @@ html[data-theme=light] .benefit strong,
 html[data-theme=light] .footer-links strong { color: #493650; }
 html[data-theme=light] .benefit span { color: #635a69; }
 
+
+.payment-feedback:not(:empty){margin-top:24px;padding:22px;border:1px solid #64516f;border-radius:8px;background:#19121f;color:var(--text);scroll-margin-top:110px}
+.payment-feedback h3{margin:0 0 12px;font-size:20px}.payment-feedback p{line-height:1.7}.payment-feedback .btn{display:inline-block;margin:12px 10px 0 0}.payment-feedback.error{border-color:#e87979}.payment-feedback.success{border-color:#72be93}.payment-feedback.processing{border-color:#bd6aef}.payment-feedback img{margin:18px 0;background:white;padding:10px;border-radius:6px}.payment-feedback textarea{width:100%;min-height:100px}html[data-theme=light] .payment-feedback:not(:empty){background:#f4edf8}#mp-brick[aria-busy=true]{pointer-events:none;opacity:.65}
